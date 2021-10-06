@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-cliente{
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.botao{
+    text-transform: uppercase;
+    color: white;
+    background-color: #1D3371;
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+}
